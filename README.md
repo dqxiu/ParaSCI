@@ -47,7 +47,8 @@ The main folder `Data` contains training/valid/test sets, each of which is made 
 // each line of *.src is a sentence which paraphrases the sentence in the same line of *.tgt
 ```
 
-Len represents the average number of words per sentence and Char Len represents the average number of characters per sentence. We calculate Len, Char Len and Self-BLEU of the gold-standard paraphrases rather than the whole size of sentences.
+· Len represents the average number of words per sentence and Char Len represents the average number of characters per sentence. 
+· We calculate Len, Char Len and Self-BLEU of the gold-standard paraphrases rather than the whole size of sentences.
 
 ---
 
