@@ -4,6 +4,7 @@ in [《ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Gene
 
 ## Introduction
 A paraphrase is a restatement of meaning with different expressions. Being very common in our daily language expressions, it can also be applied to multiple downstream tasks of NLP, such as generating diverse text or adding richness to a chatbot. 
+
 We propose ParaSCI, the first large-scale paraphrase dataset in the scientific field, including 33,981 paraphrase pairs from ACL (ParaSCI-ACL) and 316,063 pairs from arXiv (ParaSCI-arXiv). Digging into characteristics and common patterns of scientific papers, we construct this dataset though intra-paper and inter-paper methods, such as collecting citations to the same paper or aggregating definitions by scientific terms. To take advantage of sentences paraphrased partially, we put up PDBERT as a general paraphrase discovering method. The major advantages of paraphrases in ParaSCI lie in the prominent length and textual diversity, which is complementary to existing paraphrase datasets. ParaSCI obtains satisfactory results on human evaluation and downstream tasks, especially long paraphrase generation. 
 
 
