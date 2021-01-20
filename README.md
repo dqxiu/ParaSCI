@@ -48,7 +48,9 @@ The main folder `Data` contains training/valid/test sets, each of which is made 
               └── train.src
               └── train.tgt
 
-// each line of *.src is a sentence which paraphrases the sentence in the same line of *.tgt
+// Each line of *.src is a sentence which paraphrases the sentence in the same line of *.tgt.
+// The dataset segmentation of experiments in our paper is different from this, specifically, at a ratio of 6:2:2. However, considering the common segmentation ratio of deep learning experiments, we split the final released dataset at a more appropriate ratio.
+
 ```
 
 · Len represents the average number of words per sentence and Char Len represents the average number of characters per sentence. 
