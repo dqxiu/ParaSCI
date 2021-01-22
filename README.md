@@ -1,6 +1,6 @@
 # ParaSCI
 This repo contains downloading instructions for the **ParaSCI** dataset 
-in [《ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation》](https://arxiv.org/pdf/tobeuploaded) along with the code to reproduce results in the paper. 
+in [《ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation》](https://arxiv.org/abs/2101.08382) along with the code to reproduce results in the paper. 
 
 ## Introduction
 A paraphrase is a restatement of meaning with different expressions. Being very common in our daily language expressions, it can also be applied to multiple downstream tasks of NLP, such as generating diverse text or adding richness to a chatbot. 
