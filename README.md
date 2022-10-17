@@ -1,6 +1,6 @@
 # ParaSCI
 This repo contains downloading instructions for the **ParaSCI** dataset 
-in [《ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation》](https://arxiv.org/abs/2101.08382) along with the code to reproduce results in the paper. 
+in [**ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation**](https://arxiv.org/abs/2101.08382) along with the code to reproduce results in the paper. 
 
 ## Introduction
 A paraphrase is a restatement of meaning with different expressions. Being very common in our daily language expressions, it can also be applied to multiple downstream tasks of NLP, such as generating diverse text or adding richness to a chatbot. 
@@ -59,5 +59,17 @@ The main folder `Data` contains training/valid/test sets, each of which is made 
 
 ---
 
-## Code
-We will upload the code as soon as possible.
+
+## Citations
+
+Please consider citing our papers in your publications if the project helps your research. BibTeX reference is as follows.
+
+```
+@inproceedings{dong2021parasci,
+  title={ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation},
+  author={Dong, Qingxiu and Wan, Xiaojun and Cao, Yue},
+  booktitle={Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume},
+  pages={424--434},
+  year={2021}
+}
+```
